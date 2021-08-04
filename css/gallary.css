@@ -43,8 +43,7 @@ nav img {
 .text-box h1 {
     font-size: 62px;
     font: 4em massina-sans;
-    font-family:serif;
-    letter-spacing: 2px;
+    font-weight: 200;
 }
     
 .name h1 { 
@@ -166,7 +165,6 @@ nav img {
     height: 300px;
 }
 
-/* styling of footer columns */
 .left {
     padding-left: 40px;
 }
@@ -199,4 +197,98 @@ nav img {
     font-size: 10px;
     color: gray;
 }
+
+@media only screen and (max-width: 960px) {
+    .header {
+        width: 166.7%;
+    }
+    html {
+        max-width: 60%;
+    }
+
+    .options{
+        display: none;
+    } 
+    .text-box h1 {
+        font-size: 36px;
+        line-height: 1.3;
+        font-family: gt-sectra;
+    }
+    .name h1 { 
+        font-family: gt-sectra;
+        font-weight: 200;
+    }
+
+    .name {
+        padding-right: 230px;
+    }
+    .main div img {
+        max-width: 149%;
+    }
+    .main div  h1 {
+        font-size: 17px;
+        font-family: gt-sectra;
+        font-weight: 200;
+        padding-left: 100px;
+        text-align: center;
+    }
+    nav img {
+        width: 28px;
+    }
+    .options h3 span:hover::after {
+        width: 67%;
+    }
+    /* .main div img {
+        margin: initial; 
+        max-width: 173%;
+    }
     
+    .main div h1 {
+        text-align: center;
+        font-size: 17px;
+        font-family: gt-sectra;
+        font-weight: 200;
+        padding-left: 100px;
+    } */
+    .footer {
+        padding: 3em;
+        width: 137%;
+        height: 473px;
+    }
+    .footer h1 li a {
+        padding-top: 13px;
+    }
+    .right div h1 li :hover::after {
+        width: 40%;
+    }
+    .column, .column1, .column2, .column3 {
+        font-size: 1px;
+        font-family: gt-sectra;
+        font-weight: 200;
+    }
+    .column1 {
+        padding-right: 123px;
+        height: 235px;
+    }
+
+    .left {
+        padding-left: 4px;
+    }
+    
+    .right {
+        padding-left: 1px; 
+    }
+    
+    .right .column2 {
+        padding-left: 5px;
+    }
+    
+    .right .column3 {
+        padding-left: 82px;
+    }
+    
+    .coloumn-bottom-part h2 li a {
+        line-height: 1px;
+    }
+}
+
