@@ -2,77 +2,87 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    } 
-    .header {
+} 
+
+.header {
     min-height: 65vh;
     width: 100%;
     background-image: url('../assets/gallary_images/img1.jpg');
     background-position:center;
     background-size:cover;
     position: relative;
-    } 
-    html {
+} 
+
+html {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     background-color: black;
     max-width: 100%;
     overflow-x: hidden;
-    }
-    nav {
+}
+
+nav {
     display: flex;
     padding: 5% 5%;
     justify-content: space-between;
     align-items: center;
-    }
-    nav img {
+}
+
+nav img {
     width: 50px;
-    }
+}
     
-    .text-box {
+.text-box {
     width: 90%;
     color: white;
     position: absolute;
     top: 40%;
     left: 9%;
-    }
-    .text-box h1 {
+}
+
+.text-box h1 {
     font-size: 62px;
     font: 4em massina-sans;
     font-family:serif;
     letter-spacing: 2px;
-    }
+}
     
-    .name h1 { 
+.name h1 { 
     padding-left: 10px;
     color: white;
     font: 1.9em sans-serif;
     font-style:initial;
-    }
-    .name h2 {
+}
+
+.name h2 {
     padding-left: 10px;
     color: white;
     font: 1em sans-serif;
     font-size: 9px;
     font-weight: lighter;
     letter-spacing: 2px; 
-    }
-    .options {
+}
+
+.options {
     flex: 1;
     text-align: right;
-    }
-    .options h3 span {
+}
+
+.options h3 span {
     list-style: none;
     display: inline-block;
     padding: 8px 8px;
     position: relative;
-    }
-    .options h3 span a {
+}
+
+.options h3 span a {
     color: #fff;
     text-decoration: none;
     font-size: 13px;
     font: 0.8em sans-serif;
-    }
-    .options h3 span::after {
+}
+
+.options h3 span::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -80,43 +90,48 @@
     display: block;
     margin: auto;
     transition: 0.5s;
-    }
-    .options h3 span:hover::after {
+}
+
+.options h3 span:hover::after {
     width: 100%;
-    }
-    .main {
+}
+
+.main {
     display: flex;
     flex-wrap: wrap;
     align-items:flex-start;
     flex-direction: row;
     max-height: 1000vh;
     padding-right: 10px;
-    }
+}
     
-    .main div {
+.main div {
     padding-bottom: 37px;
     padding-top: 0px; 
-    }
+}
     
-    .main div img {
+.main div img {
     margin: initial; 
     max-width: 32.59999999999999999999vw;
-    } 
-    .main div h1 {
+}
+
+.main div h1 {
     padding: 22px;
     color: white;
     padding: 8;
     font: 1.4em sans-serif;
     font-weight: lighter;
     padding-left: 150px;
-    }
-    .footer {
+}
+
+.footer {
     background: rgb(21, 31, 31);
     padding: 7em;
     padding-bottom: 400px;
     flex: 1;
-    }
-    .footer h1 li a {
+}
+
+.footer h1 li a {
     inline-size: 1px;
     font-size: 13.6px;
     line-height: 20px;
@@ -124,8 +139,9 @@
     color: white;
     text-decoration: none;
     letter-spacing: 0.3px; 
-    }
-    .right div h1 li ::after {
+}
+
+.right div h1 li ::after {
     content: '';
     width: 0%;
     height: 1px;
@@ -133,33 +149,41 @@
     display: block;
     margin: auto;
     transition: 0.5s;
-    }
-    .right div h1 li :hover::after {
+}
+
+.right div h1 li :hover::after {
     width: 100%;
-    }
-    .column img {
+}
+
+.column img {
     width: 39px;
-    }
-    .column, .column1, .column2, .column3 {
+}
+
+.column, .column1, .column2, .column3 {
     float: left;
     width: 25%;
     padding: 8px;
     height: 300px;
-    }
-    /* styling of footer columns */
-    .left {
+}
+
+/* styling of footer columns */
+.left {
     padding-left: 40px;
-    }
-    .right {
+}
+
+.right {
     padding-left: 240px; 
-    }
-    .right .column2 {
+}
+
+.right .column2 {
     padding-left: 100px;
-    }
-    .right .column3 {
+}
+
+.right .column3 {
     padding-left: 250px;
-    }
-    .footer h1 li a1 {
+}
+
+.footer h1 li a1 {
     inline-size: 1px;
     font-size: 13.6px;
     line-height: 20px;
@@ -168,10 +192,11 @@
     text-decoration: none;
     letter-spacing: 0.3px;
     text-decoration-line: underline;
-    }
-    .coloumn-bottom-part h2 li a {
+}
+
+.coloumn-bottom-part h2 li a {
     line-height: 340px;
     font-size: 10px;
     color: gray;
-    }
+}
     
