@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-.main {
-    min-height: 10vh;
+.welcome {
+    min-height: 100vh;
     width: 100%;
     background-image: url('../assets/home_page/backgroundimage1.jpg');
-    background-position: left;
-    background-size: 800vw;
-    position: initial;
+    background-position:top;
+    background-size:cover;
+    position: relative;
 }
 
 /* header section */
@@ -47,11 +47,21 @@ nav {
 
 nav img {
     width: 50px;
+    position:relative;
+    top: 90;
+    left: 100px;
+    z-index: 1;
 }
 
 .options {
     flex: 1;
-    padding-left: 457px;
+    padding-left: 700px;
+    padding-bottom: 7px;
+    position: absolute;
+    padding-top: 45px;
+    top: 0;
+    left: 0px;
+    z-index: 1;
 }
 
 .options h3 span {
@@ -62,9 +72,11 @@ nav img {
 }
 
 .options h3 span a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 17px;
+    color:white;
+    text-decoration:none;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: messina-sans;
 }
 
 .options h3 span::after {
@@ -89,19 +101,29 @@ nav img {
 }
 
 .name h1 {
-    padding-left: 10px;
+    padding-left: 95px;
+    padding-top: 50px;
     color: white;
     font: 2em sans-serif;
     font-style: initial;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 1;
 }
 
 .name h2 {
-    padding-left: 15px;
+    padding-left: 95px;
+    padding-top: 90px;
     color: white;
     font: 1em sans-serif;
     font-size: 9px;
     font-weight: lighter;
     letter-spacing: 2px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 1;
 }
 
 .text-box {
@@ -152,31 +174,6 @@ nav img {
     width: 25%;
     padding: 8px;
     height: 300px;
-}
-
-
-/* styling of footer columns */
-
-.left {
-    padding-left: 40px;
-}
-
-.right {
-    padding-left: 240px;
-}
-
-.right .column2 {
-    padding-left: 100px;
-}
-
-.right .column3 {
-    padding-left: 250px;
-}
-
-.coloumn-bottom-part h2 li a {
-    line-height: 340px;
-    font-size: 10px;
-    color: gray;
 }
 
 .welcome h1 img {
@@ -361,7 +358,7 @@ img:hover {
     height: 550px;
     width: 55%;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 10px;
     background-color: rgb(21, 31, 31);
     padding: 0 20px 20px 20px;
     position: relative;
@@ -376,12 +373,26 @@ img:hover {
 
 .slideshow-container {
     max-width: 1000px;
+    padding-top: 34px;
     position: relative;
     margin: auto;
     position: relative;
     top: 0;
     left: 35px;
     z-index: 1;
+}
+
+.slideshow-container img {
+    height: 550px;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding: 0 20px 20px 20px;
+    position: relative;
+    top: 0;
+    left: 350px;
+    z-index: 1;
+
 }
 
 
@@ -467,12 +478,13 @@ img:hover {
 }
 
 .section6 div h1 {
-    color: aqua;
+    color: white;
     padding: 8;
-    font: 1.4em sans-serif;
+    font: 2.4em sans-serif;
     font-weight: lighter;
-    padding-left: 150px;
-    position: relative;
+    padding-left:0px;
+    padding-top: 5px;
+    position:left;
     top: 0;
     right: 450px;
     left: 35px;
@@ -560,3 +572,42 @@ img:hover {
     text-decoration: none;
     letter-spacing: 0.3px; 
 }
+
+
+
+.left {
+    padding-left: 40px;
+}
+
+.right {
+    padding-left: 240px;
+}
+
+.right .column2 {
+    padding-left: 100px;
+}
+
+.right .column3 {
+    padding-left: 250px;
+}
+
+.coloumn-bottom-part h2 li a {
+    line-height: 340px;
+    font-size: 10px;
+    color: gray;
+}
+
+
+.image1-caption {
+    text-align: center;
+    color: violet;
+    position: absolute;
+    left: 350px;
+    z-index: 1;
+}
+
+.section6 div {
+    position: relative;
+    text-align: center;
+    color: white;
+  }

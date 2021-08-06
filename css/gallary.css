@@ -132,7 +132,9 @@ nav img {
 
 .footer h1 li a {
     inline-size: 1px;
-    font-size: 13.6px;
+    font-size: 1rem;
+    font-family: gt-sectra;
+    font-weight: 200;
     line-height: 20px;
     padding-top: 14px;
     color: white;
@@ -198,9 +200,10 @@ nav img {
     color: gray;
 }
 
-@media only screen and (max-width: 960px) {
+
+@media only screen and (max-width: 940px) {
     .header {
-        width: 166.7%;
+        width: 169.2%;
     }
     html {
         max-width: 60%;
@@ -222,8 +225,9 @@ nav img {
     .name {
         padding-right: 230px;
     }
+
     .main div img {
-        max-width: 149%;
+        max-width: 177.9%;
     }
     .main div  h1 {
         font-size: 17px;
@@ -238,28 +242,17 @@ nav img {
     .options h3 span:hover::after {
         width: 67%;
     }
-    /* .main div img {
-        margin: initial; 
-        max-width: 173%;
-    }
     
-    .main div h1 {
-        text-align: center;
-        font-size: 17px;
-        font-family: gt-sectra;
-        font-weight: 200;
-        padding-left: 100px;
-    } */
     .footer {
         padding: 3em;
-        width: 137%;
+        width:169.6%;
         height: 473px;
     }
     .footer h1 li a {
         padding-top: 13px;
     }
     .right div h1 li :hover::after {
-        width: 40%;
+        width: 67%;
     }
     .column, .column1, .column2, .column3 {
         font-size: 1px;
@@ -267,8 +260,7 @@ nav img {
         font-weight: 200;
     }
     .column1 {
-        padding-right: 123px;
-        height: 235px;
+        padding-right: 143px;
     }
 
     .left {
@@ -280,11 +272,11 @@ nav img {
     }
     
     .right .column2 {
-        padding-left: 5px;
+        padding-left: 1px;
     }
     
     .right .column3 {
-        padding-left: 82px;
+        padding-left: 2px;
     }
     
     .coloumn-bottom-part h2 li a {

@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+nav {
+    display: flex;
+    padding: 5% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 50px;
+}
+    
+.name h1 { 
+    padding-left: 10px;
+    color: white;
+    font: 1.9em sans-serif;
+    font-style:initial;
+}
+
+.name h2 {
+    padding-left: 10px;
+    color: white;
+    font: 1em sans-serif;
+    font-size: 9px;
+    font-weight: lighter;
+    letter-spacing: 2px; 
+}
+
+.options {
+    flex: 1;
+    text-align: right;
+}
+
+.options h3 span {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 8px;
+    position: relative;
+}
+
+.options h3 span a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: gt-sectra;
+    font-weight: 200;
+}
+
+.options h3 span::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.options h3 span:hover::after {
+    width: 100%;
+} 
+
+/* styling of footer section */
+
+.footer {
+    background: rgb(21, 31, 31);
+    padding: 7em;
+    flex: 1;
+}
+
+.footer h1 li a {
+    inline-size: 1px;
+    font-size: 13.6px;
+    line-height: 20px;
+    padding-top: 14px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.3px; 
+}
+
+.right div h1 li ::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background:white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.right div h1 li :hover::after {
+    width: 100%;
+}
+
+.column img {
+    width: 39px;
+}
+
+.column, .column1, .column2, .column3 {
+    float: left;
+    width: 25%;
+    padding: 8px;
+    height: 300px;
+}
+
+/* styling of footer columns */
+
+.left {
+    padding-left: 40px;
+}
+.right {
+    padding-left: 240px; 
+}
+.right .column2 {
+    padding-left: 100px;
+}
+
+.right .column3 {
+    padding-left: 250px;
+}
+
+.footer h1 li a1 {
+    inline-size: 1px;
+    font-size: 13.6px;
+    line-height: 20px;
+    padding-top: 14px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    text-decoration-line: underline;
+}
+
+.coloumn-bottom-part h2 li a {
+    line-height: 340px;
+    font-size: 10px;
+    color: gray;
+}
