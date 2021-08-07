@@ -291,18 +291,11 @@ img:hover {
     width: 80%;
 }
 
-/* section 9 styling */
-
-.section9 img {
-    height: 45%;
-}
-
 /* footer section styling */
 
 .footer {
     background: rgb(21, 31, 31);    
     height: 80%;
-    /* padding: 10px; */
 }
 
 .footer h1 li a {
@@ -371,6 +364,4 @@ img:hover {
     color: gray;
 }
 
-/* .main {
-    height: 600px;
-} */
+

@@ -1,0 +1,446 @@
+* {
+    box-sizing: border-box;
+}
+
+/* header section */
+
+.header {
+    min-height: 130vh;
+    width: 100%;
+}
+
+body, html {
+    max-width: 100%;
+    /* overflow-x: hidden; */
+}
+
+.main {
+    height: 541vh;
+}
+
+nav {
+    display: flex;
+    padding: 5% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 50px;
+    position:relative;
+    top: 90;
+    left: 100px;
+    z-index: 1;
+}
+
+.options {
+    flex: 1;
+    padding-left: 700px;
+    padding-bottom: 7px;
+    position: absolute;
+    padding-top: 45px;
+    top: 0;
+    left: 0px;
+    z-index: 1;
+}
+
+.options h3 span {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 1px;
+    position: relative;
+}
+
+.options h3 span a {
+    color:white;
+    text-decoration:none;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: messina-sans;
+}
+
+.options h3 span::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.options h3 span:hover::after {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 1;
+}
+
+.name h1 {
+    padding-left: 95px;
+    padding-top: 50px;
+    color: white;
+    font: 2em sans-serif;
+    font-style: initial;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 1;
+}
+
+.name h2 {
+    padding-left: 95px;
+    padding-top: 105px;
+    color: white;
+    font: 1em sans-serif;
+    font-size: 9px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 1;
+}
+
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.text-box h1 {
+    font-size: 62px;
+    font-family: gotham;
+    font-weight: 100;
+    letter-spacing: 1.3px;
+}
+
+.text-box h2 {
+    font-size: 62px;
+    font-family: gotham;
+    font-weight: 1;
+    letter-spacing: 1.7px;
+}
+
+.right div h1 li ::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.right div h1 li :hover::after {
+    width: 100%;
+}
+
+/* section 1 styling */
+
+.section1 {
+    height: 5%;
+}
+
+.section1 p {
+    font-family: gt-sectra;
+    font-weight: 100;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.4;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 5px;
+}
+
+/* section2 styling */
+
+.section2-coloumn1, .section2-coloumn2 {
+    float: left;
+    width: 50%;
+    padding-top: 80px;
+}
+  
+.section2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section2-coloumn1 h1 {
+    font-family: gt-sectra;
+    font-size: 38px;
+    font-weight: 200;
+    padding-top: 170px;
+    padding-left: 130px;
+}
+
+.section2-coloumn1 p {
+    font-family: gt-sectra;
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-left: 130px;
+    padding-right: 100px;
+    line-height: 1.7;
+    color: #777;
+}
+
+.section2-coloumn2 img {
+    padding-top: 1px;
+    height: 67%;
+    width: 80%;
+    right: 300px;
+}
+
+/* section 3 styling */
+
+.section3 {
+    height: 31%;
+    padding-top: 90px;
+    background-color: rgb(221, 217, 217);
+}
+
+.section3-image1 {
+    height: 900px;
+    width: 68%;
+    background-color: #777;
+    position: relative;
+    top: 50px;
+    right: 1030px;
+    left: 100px;
+    z-index: 2;
+}
+
+.section3-image2 {
+    position: relative;
+    width: 70%;
+    right: 300px;
+    z-index: 1;
+    height: 500px;
+}
+
+.section3-image3 {
+    width: 73%;
+    height: 450px;
+    background-color:white;
+    position:absolute;
+    top: 100px;
+    z-index: 1;
+    left: 950px;
+}
+
+.section3-image3 h1 {
+    font-family: gt-sectra;
+    font-weight: 200;
+    padding-top : 8px;
+    padding-left: 70px;
+}
+
+.section3-image3 p{
+    font-family: gt-sectra;
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 1.9;
+    color: #777;
+}
+
+/* section 4 styling */
+
+.section4 {
+    height: 31%;
+    padding-top: 90px;
+    background-color: rgb(221, 217, 217);
+}
+
+.section4-image1 {
+    height: 900px;
+    width: 68%;
+    background-color: #777;
+    position: relative;
+    top: 50px;
+    right: 100px;
+    left: 220px;
+    z-index: 2;
+}
+
+.section4-image2 {
+    position: relative;
+    width: 70%;
+    left: 50px;
+    z-index: 1;
+    height: 500px;
+}
+
+.section4-image3 {
+    width: 73%;
+    height: 450px;
+    background-color:white;
+    position:absolute;
+    top: 100px;
+    z-index: 1;
+    left: 1px;
+}
+
+.section3-image3 h1 {
+    font-family: gt-sectra;
+    font-weight: 200;
+    padding-top : 8px;
+    padding-left: 70px;
+}
+
+.section4-image3 p{
+    font-family: gt-sectra;
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 1.9;
+    color: #777;
+}
+
+/* section 5 styling */
+
+.section5 {
+    height: 31%;
+    padding-top: 90px;
+    background-color: rgb(221, 217, 217);
+}
+
+.section5-image1 {
+    height: 900px;
+    width: 68%;
+    background-color: #777;
+    position: relative;
+    top: 50px;
+    right: 1030px;
+    left: 100px;
+    z-index: 2;
+}
+
+.section5-image2 {
+    position: relative;
+    width: 70%;
+    right: 300px;
+    z-index: 1;
+    height: 500px;
+}
+
+.section5-image3 {
+    width: 73%;
+    height: 450px;
+    background-color:white;
+    position:absolute;
+    top: 100px;
+    z-index: 1;
+    left: 950px;
+}
+
+.section5-image3 h1 {
+    font-family: gt-sectra;
+    font-weight: 200;
+    padding-top : 8px;
+    padding-left: 70px;
+}
+
+.section5-image3 p{
+    font-family: gt-sectra;
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 1.9;
+    color: #777;
+}
+
+/* section 6 styling */
+
+.section6 img {
+    height: 80vh;
+    width: 100%;
+}
+
+/* footer section styling */
+
+.footer {
+    background: rgb(21, 31, 31);    
+    height: 80%;
+}
+
+.footer h1 li a {
+    inline-size: 1px;
+    font-size: 13.6px;
+    line-height: 20px;
+    padding-top: 14px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.3px; 
+}
+
+.right div h1 li ::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background:white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.right div h1 li :hover::after {
+    width: 100%;
+}
+
+.column img {
+    width: 39px;
+}
+
+.column, .column1, .column2, .column3 {
+    padding-top: 100px;
+    float: left;
+    width: 25%;
+    
+}
+
+.left {
+    padding-left: 110px;
+}
+.right {
+    padding-left: 240px; 
+}
+.right .column2 {
+    padding-left: 130px;
+}
+
+.right .column3 {
+    padding-left: 255px;
+}
+
+.footer h1 li a1 {
+    inline-size: 1px;
+    font-size: 13.6px;
+    line-height: 20px;
+    padding-top: 14px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    text-decoration-line: underline;
+}
+
+.coloumn-bottom-part h2 li a {
+    line-height: 500px;
+    font-size: 10px;
+    color: gray;
+}
+
