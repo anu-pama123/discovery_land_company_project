@@ -24,6 +24,15 @@ body, html {
     padding-left: 260px;    
 }
 
+.text-box h2 li {
+    font-size: 18px;
+    font-family: gt-sectra;
+    font-weight: 10;
+    color:rgb(212, 209, 209);
+    padding-top: 100px;
+    padding-left: 100px;    
+}
+
 nav {
     display: flex;
     padding: 7% 7%;
@@ -196,6 +205,23 @@ img:hover {
     transform: translateZ(50px);
 }
 
+.slide-description {
+    font-size: 30px;
+    font-family: gotham;
+    font-weight: 100;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 1px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 1px;
+}
+
+.slide-description p {
+    font-size: 15px;
+}
+
+
 /* section 6 styling */
 
 .section6-column1, .section6-coloumn2 {
@@ -244,7 +270,7 @@ img:hover {
     width: 80%;
 }
 
-/* section8 styling */
+/* section 8 styling */
 
 .section8-coloumn1, .section8-coloumn2 {
     float: left;
@@ -291,77 +317,47 @@ img:hover {
     width: 80%;
 }
 
-/* footer section styling */
-
-.footer {
-    background: rgb(21, 31, 31);    
-    height: 80%;
+.section9 {
+    position: relative;
+    font-family: Arial;
 }
 
-.footer h1 li a {
-    inline-size: 1px;
-    font-size: 13.6px;
-    line-height: 20px;
-    padding-top: 14px;
+.section9-caption {
+    font-size: 50px;
+    font-family: gotham;
+    font-weight: 100;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 280px;
+    right: 210px;   
     color: white;
+    padding-left: 120px;
+    padding-right: 300px;
+}
+
+.button {
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
-    letter-spacing: 0.3px; 
-}
-
-.right div h1 li ::after {
-    content: '';
-    width: 0%;
-    height: 1px;
-    background:white;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-
-.right div h1 li :hover::after {
-    width: 100%;
-}
-
-.column img {
-    width: 39px;
-}
-
-.column, .column1, .column2, .column3 {
-    padding-top: 100px;
-    float: left;
-    width: 25%;
-    
-}
-
-.left {
-    padding-left: 110px;
-}
-.right {
-    padding-left: 240px; 
-}
-.right .column2 {
-    padding-left: 160px;
-}
-
-.right .column3 {
-    padding-left: 255px;
-}
-
-.footer h1 li a1 {
-    inline-size: 1px;
-    font-size: 13.6px;
-    line-height: 20px;
-    padding-top: 14px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
     color: white;
-    text-decoration: none;
-    letter-spacing: 0.3px;
-    text-decoration-line: underline;
+    border: .5px solid white;
 }
 
-.coloumn-bottom-part h2 li a {
-    line-height: 500px;
-    font-size: 10px;
-    color: gray;
-}
-
+.section9-button {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
 

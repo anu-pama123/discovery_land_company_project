@@ -1,0 +1,76 @@
+/* footer part styling */
+
+.footer {
+    background: rgb(21, 31, 31);
+    padding: 7em;
+    flex: 1;
+    overflow-x: hidden;
+}
+
+.footer h1 li a {
+    inline-size: 1px;
+    font-size: 13.6px;
+    line-height: 20px;
+    padding-top: 14px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.3px; 
+}
+
+.footer-container2 div h1 li ::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background:white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.right div h1 li :hover::after {
+    width: 100%;
+}
+
+.column img {
+    width: 39px;
+}
+
+.column, .column1, .column2, .column3 {
+    float: left;
+    width: 25%;
+    padding: 8px;
+    height: 300px;
+}
+
+/* styling of footer columns */
+
+.footer-container1 {
+    padding-left: 40px;
+}
+.footer-container2 {
+    padding-left: 240px; 
+}
+.footer-container2 .column2 {
+    padding-left: 100px;
+}
+
+.footer-container2 .column3 {
+    padding-left: 250px;
+}
+
+.footer h1 li a1 {
+    inline-size: 1px;
+    font-size: 13.6px;
+    line-height: 20px;
+    padding-top: 14px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    text-decoration-line: underline;
+}
+
+.coloumn-bottom-part h2 li a {
+    line-height: 340px;
+    font-size: 10px;
+    color: gray;
+}

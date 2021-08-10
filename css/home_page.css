@@ -15,19 +15,12 @@
 
 /* header section */
 
-.header {
+.header-content {
     min-height: 130vh;
     width: 100%;
 }
 
-#myVideo {
-    right: 0;
-    min-width: 100%;
-    min-height: 100;
-}
-
-body,
-html {
+body, html {
     max-width: 100%;
     font-family: massina-sans;
     background-color: #fff;
@@ -35,7 +28,7 @@ html {
 }
 
 .main {
-    height: 541vh;
+    height: 555.7vh;
 }
 
 nav {
@@ -166,10 +159,7 @@ nav img {
     width: 39px;
 }
 
-.column,
-.column1,
-.column2,
-.column3 {
+.column, .column1, .column2, .column3 {
     float: left;
     width: 25%;
     padding: 8px;
@@ -343,7 +333,7 @@ img:hover {
 }
 
 .section5 img {
-    margin-top: 7%;
+    margin-top: 0%;
     display: flex;
     float: left;
     width: 900px;
@@ -402,7 +392,6 @@ img:hover {
     display: none;
 }
 
-
 /* Next & previous buttons */
 
 .prev, .next {
@@ -438,12 +427,31 @@ img:hover {
 }
 
 .sunbar img {
-    width: 40%;
-    height: 10%;
+    width: 25%;
+    height: 6%;
     left: 10px;
-    position: fixed;
+    position: relative;
     padding-right: 129px;
+    bottom: 750px;
 }
+
+.distance img {
+    width: 6%;
+    height: 6%;
+    position: relative;
+    bottom: 750px;
+    right: 90px;
+
+}
+
+.icon3 img {
+    width: 6%;
+    height: 6%;
+    position: relative;
+    bottom: 750px;
+    right: 60px;
+
+}   
 
 @keyframes fade {
     from {
@@ -472,9 +480,10 @@ img:hover {
 }
 
 .section6 div img {
-    height: 690px;
+    height: 720px;
     margin: initial;
-    max-width: 32.59999999999999999999vw;
+    max-width: 32.5999vw;
+
 }
 
 .section6 div h1 {
@@ -492,112 +501,6 @@ img:hover {
     height: 56px;
 }
 
-
-.footer {
-    background: rgb(21, 31, 31);
-    padding: 7em;
-    padding-bottom: 400px;
-    flex: 1;
-}
-.footer h1 li a {
-    inline-size: 1px;
-    font-size: 13.6px;
-    line-height: 20px;
-    padding-top: 14px;
-    color: white;
-    text-decoration: none;
-    letter-spacing: 0.3px; 
-}
-.right div h1 li ::after {
-    content: '';
-    width: 0%;
-    height: 1px;
-    background:white;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-.right div h1 li :hover::after {
-    width: 100%;
-}
-.column img {
-    width: 39px;
-}
-.column, .column1, .column2, .column3 {
-    float: left;
-    width: 25%;
-    padding: 8px;
-    height: 300px;
-}
-    /* styling of footer columns */
-.left {
-    padding-left: 40px;
-}
-.right {
-    padding-left: 240px; 
-}
-.right .column2 {
-    padding-left: 100px;
-}
-.right .column3 {
-    padding-left: 250px;
-}
-.footer h1 li a1 {
-    inline-size: 1px;
-    font-size: 13.6px;
-    line-height: 20px;
-    padding-top: 14px;
-    color: white;
-    text-decoration: none;
-    letter-spacing: 0.3px;
-    text-decoration-line: underline;
-}
-.coloumn-bottom-part h2 li a {
-    line-height: 340px;
-    font-size: 10px;
-    color: gray;
-}
-.footer {
-    background: rgb(21, 31, 31);
-    padding: 7em;
-    padding-bottom: 400px;
-    flex: 1;
-}
-.footer h1 li a {
-    inline-size: 1px;
-    font-size: 13.6px;
-    line-height: 20px;
-    padding-top: 14px;
-    color: white;
-    text-decoration: none;
-    letter-spacing: 0.3px; 
-}
-
-
-
-.left {
-    padding-left: 40px;
-}
-
-.right {
-    padding-left: 240px;
-}
-
-.right .column2 {
-    padding-left: 100px;
-}
-
-.right .column3 {
-    padding-left: 250px;
-}
-
-.coloumn-bottom-part h2 li a {
-    line-height: 340px;
-    font-size: 10px;
-    color: gray;
-}
-
-
 .image1-caption {
     text-align: center;
     color: violet;
@@ -610,4 +513,21 @@ img:hover {
     position: relative;
     text-align: center;
     color: white;
-  }
+}
+
+.container {
+    position: relative;
+    font-family: Arial;
+}
+
+.text-block {
+    font-size: 40px;
+    font-family: gotham;
+    font-weight: 200;
+    position: absolute;
+    bottom: 320px;
+    right: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}

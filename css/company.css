@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+    
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+    
+html { 
+    max-width: 100%;
+    overflow-x: hidden;
+}
+    
+/* header section styling*/
+
+.header-content {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../assets/company_page/img0.jpg');
+    background-position:center;
+    background-size:cover;
+    position: relative;
+} 
+
+nav {
+    display: flex;
+    padding: 7% 7%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 44px;
+    padding-bottom: 155px;
+}
+    
+nav img {
+    width: 180px;
+}
+
+.options {
+    text-align:right;
+}
+
+.options h3 span {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 8px;
+    position: relative;
+}
+
+.options h3 span a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: messina-sans;
+}
+
+.options h3 span::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.options h3 span:hover::after {
+    width: 100%;
+}
+
+.text-block h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: 100;
+    padding-left: 300px;
+}
+
+.text-block h2 {
+    font-size: 16px;
+    color: rgb(226, 222, 222);
+    padding-left: 140px;
+    padding-top: 200px;
+    font-weight: 200;
+    font-family: gotham;
+}
+
+/* section 1 styling */
+
+.section1 p {
+    font-family: gt-sectra;
+    font-weight: 100;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.4;
+    padding-left: 160px;
+    padding-right: 190px;
+    padding-top: 70px;
+}
+
+/* section 2 styling */
+
+.clearfix p {
+    font-family: gt-sectra;
+    font-weight: 100;
+    text-align: left;
+    font-size: 1.2rem;
+    color: #777;
+    line-height: 1.2;
+    padding-left: 160px;
+    padding-top: 160px;
+}
+
+.clearfix img {
+    padding-right: 90px;
+    padding-top: 120px;
+    width: 50%;
+    height: 90%;
+}
+
+/* section 4 styling */
+
+.section4 {
+    height: 91%;
+    padding-top: 90px;
+    background-color: rgb(221, 217, 217);
+}
+
+.section4-image1 {
+    height: 300px;
+    width: 82%;
+    background-color:white;
+    position: relative;
+    top: 280px;
+    right: 1030px;
+    left: 100px;
+    z-index: 2;
+}
+
+.section4-image2 {
+    position: relative;
+    width: 20%;
+    right: 300px;
+    z-index: 1;
+    height: 10px;
+}
+
+/* section5 styling */
+
+.section5 {
+    height: 80vh;
+    position: relative;
+    font-family: Arial;
+}
+
+.section5-caption {
+    font-size: 50px;
+    font-family: gotham;
+    font-weight: 100;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 200px;
+    right: 210px;   
+    color: white;
+    padding-left: 120px;
+    padding-right: 300px;
+}
+
+.button {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: white;
+    border: .5px solid white;
+}
+
+.section5-button {
+    position: absolute;
+    top: 79%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+
+
+
+
+

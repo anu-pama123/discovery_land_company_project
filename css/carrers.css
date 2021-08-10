@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+    
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+    
+html { 
+    max-width: 100%;
+    overflow-x: hidden;
+}
+    
+/* header section styling*/
+
+.header-content {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../assets/carrers/img1.jpg');
+    background-position:center;
+    background-size:cover;
+    position: relative;
+} 
+
+nav {
+    display: flex;
+    padding: 7% 7%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 44px;
+    padding-bottom: 155px;
+}
+    
+nav img {
+    width: 180px;
+}
+
+.options {
+    text-align:right;
+}
+
+.options h3 span {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 8px;
+    position: relative;
+}
+
+.options h3 span a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: messina-sans;
+}
+
+.options h3 span::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.options h3 span:hover::after {
+    width: 100%;
+}
+
+.text-block h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: 100;
+    padding-left: 300px;
+}
+
+.text-block h2 {
+    font-size: 16px;
+    color: rgb(226, 222, 222);
+    padding-left: 140px;
+    padding-top: 200px;
+    font-weight: 200;
+    font-family: gotham;
+}
+
+.section1 {
+    background-color: rgb(248, 245, 245);
+    height: 920px;
+    height: 47%;
+}
+
+.sub-section1 h1 {
+    font-family: gt-sectra;
+    font-weight: 200;
+    font-size: 230%;
+    height: 635px;
+    color: black;
+    margin-top: 50px;
+    padding-left: 130px;
+    height: 90px;
+}
+
+.sub-section2 img {
+    margin-top: 1%;
+    display: flex;
+    float: left;
+    width: 63%;
+    height: 667px;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+.sub-section2-button {
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+.box {
+    height: 550px;
+    width: 39%;    
+    background-color:white;
+    position:absolute;
+    padding-right: 98px;
+    left: 730px;
+    top: 889px;
+}
+    
+.box h2 {
+    margin-block-start: 1.33em; 
+    margin-block-end: 1.33em;
+    font-family: gt-sectra;
+    font-size: 22px;
+    font-weight: 200;
+    margin-left: 50px;
+}
+
+.box h1 {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    font-family: gt-sectra;
+    color: #777;
+}
+
+.box p {
+    color: #777;
+    line-height: 2;
+    font-size: 0.9rem;
+    font-family: gt-sectra;
+    margin-left: 50px;
+}
+
+.main {
+    height: 100%;
+}
+
+.section1 {
+    height: 18%;
+}
+
+.section1 p {
+    font-family: gt-sectra;
+    font-weight: 100;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.4;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 40px;
+}
+
+/* section2 styling */
+
+.section2-coloumn1, .section2-coloumn2 {
+    float: left;
+    width: 50%;
+    padding-top: 80px;
+    height: 970px;
+}
+  
+.section2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section2-coloumn2 h1 {
+    font-family: gt-sectra;
+    font-size: 38px;
+    font-weight: 200;
+    padding-top: 170px;
+    padding-left: 130px;
+}
+
+.section2-coloumn2 p {
+    font-family: gt-sectra;
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #777;
+}
+
+.section2-coloumn1 img {
+    padding-top: 60px;
+    padding-left: 120px;
+    height: 750px;
+    width: 89%;
+}
+section3 img {
+    top: 1000px;
+}
+
+/* section 4 styling */
+
+.section4-coloumn1, .section2-coloumn2 {
+    float: left;
+    width: 50%;
+    padding-top: 80px;
+    height: 500px;
+}
+  
+.section4:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section4-coloumn1 h1 {
+    font-family: gt-sectra;
+    font-size: 38px;
+    font-weight: 200;
+    padding-top: 570px;
+    padding-left: 130px;
+}
+
+.section4-coloumn1 p {
+    font-family: gt-sectra;
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #777;
+}
+
+.section4-coloumn2 img {
+    padding-bottom: 260px;
+    padding-left: 690px;
+    height: 950px;
+    width: 92%;
+}
+
+
+
+
+
+
