@@ -23,7 +23,7 @@ html {
 .header-content {
     min-height: 100vh;
     width: 100%;
-    background-image: url('../assets/press_page/image3.jpg');
+    background-image: url('../assets/foundation/img1.jpg');
     background-position:center;
     background-size:cover;
     position: relative;
@@ -158,90 +158,68 @@ nav img {
 }
 
 .main {
-    height: 1990px;
+    height: 1150px;
+}
+.section1 {
+    height: 16%;
+    background-color: white;
 }
 
-/* section3 styling */
-
-.section3 {
-    font-size: 23px;
-    font-family: gtsecra;
-    font-weight:bold;
-    margin-top: 50px;
-    padding-left: 130px;
+.section1 p {
+    font-family: gt-sectra;
+    font-weight: 100;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.4;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 140px;
 }
 
-/* section 4 styling */
+/* section2 styling */
 
-.section4-coloumn1, .section4-coloumn2 {
+.section2-coloumn1, .section2-coloumn2 {
     float: left;
     width: 50%;
     padding-top: 80px;
-    padding-left: 130px;
-    padding-right: 70px;
-    height: 1100px;
-  }
+    height: 1000px;
+}
   
-.section4:after {
+.section2:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.section4-coloumn1 h1, h3 {
+.section2-coloumn2 h1 {
+    font-family: gt-sectra;
+    font-size: 38px;
+    font-weight: 200;
+    padding-top: 170px;
+    padding-left: 130px;
+    padding-right: 150px;
+}
+
+.section2-coloumn2 p {
     font-family: gt-sectra;
     font-size: 18px;
-    font-weight: 100;
-    padding-top: 10px;
-    font-weight: bold;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-left: 130px;
+    padding-right: 100px;
+    color: #777;
 }
 
-.section4-coloumn1 p1 {
-    font-family: gt-sectra;
-    font-size: 29px;
-    font-weight: 100;
-    padding-right: 50px;
-    line-height: 1;
+.section2-coloumn1 img {
+    padding-top: 60px;
+    height: 85%;
+    width: 100%;
+    padding-left: 100px;
 }
 
-.section4-coloumn1 h2 {
-    padding-top: 200px;
-    font-family: gt-sectra;
-    font-size: 29px;
-    font-weight: 100;
-    padding-right: 50px;
-    line-height: 1;
-}
-
-.section4-coloumn2 h1, h3 {
-    font-family: gt-sectra;
-    font-size: 18px;
-    font-weight: 100;
-    padding-top: 10px;
-    font-weight: bold;
-}
-
-.section4-coloumn2 p1 {
-    font-family: gt-sectra;
-    font-size: 29px;
-    font-weight: 100;
-    padding-right: 50px;
-    line-height: 1;
-}
-
-/* section 4 button styling */
-
-.section4-coloumn2 h2 {
-    padding-top: 80px;
-    font-family: gt-sectra;
-    font-size: 29px;
-    font-weight: 100;
-    padding-right: 50px;
-    line-height: 1;
-}
-
-.section4-button {
+.section2-button {
     padding-top: 70px;
+    padding-left: 250px;
 }
 
 .button {
@@ -256,27 +234,3 @@ nav img {
     color: black;
     border: 2px solid #555555;
 }
-
-@media only screen and (max-width: 940px) {
-    nav img {
-        width: 100px;
-    } 
-
-    .options{
-        display: none;
-    }
-
-    .text-block h1 {
-        font-size: 30px;
-        padding-left: 30px;
-    }
-
-    .text-block h2 {
-        display: none;
-    }
-    
-}
-
-
-
-

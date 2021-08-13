@@ -88,7 +88,7 @@ nav img {
 } 
 
 .name h1 { 
-    padding-left: 10px;
+    padding-left: 10px;    
     color: white;
     font: 2em sans-serif;
     font-style:initial;
@@ -111,17 +111,27 @@ nav img {
     padding-left: 10px;
 }
 
-.main div h2 {
+.main div h2, h3 {
     padding: 20px 0;
     color: white;
     padding: 2px;
     padding-left: 10px;
     font-size: 3px;
-    font: 1em sans-serif;
+    font: .9em sans-serif;
     color: dimgray;
 }
 
 .main div {
     padding-bottom: 70px;
+}
+
+@media only screen and (max-width: 940px) {
+    .options{
+        display: none;
+    } 
+
+    .main img {
+        max-width: 43vw;
+    } 
 }
 

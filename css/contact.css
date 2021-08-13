@@ -21,9 +21,9 @@ html {
 /* header section styling*/
 
 .header-content {
-    min-height: 100vh;
+    min-height: 92vh;
     width: 100%;
-    background-image: url('../assets/press_page/image3.jpg');
+    background-image: url('../assets/contact/img1.jpg');
     background-position:center;
     background-size:cover;
     position: relative;
@@ -161,23 +161,75 @@ nav img {
     height: 1990px;
 }
 
-/* section3 styling */
+/* section1 styling */
 
-.section3 {
-    font-size: 23px;
-    font-family: gtsecra;
-    font-weight:bold;
-    margin-top: 50px;
-    padding-left: 130px;
+.section1 {
+    height: 16%;
+    background-color: white;
 }
 
-/* section 4 styling */
+.section1 p {
+    font-family: gt-sectra;
+    font-weight: 100;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.4;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 90px;
+}
+
+.section2 img {
+    height: 8%;
+}
+
+.section2-image3 {
+    width: 73%;
+    height: 450px;
+    background-color:white;
+    position:absolute;
+    top: 1200px;
+    z-index: 1;
+    left: 150px;
+}
+
+.section2-image3 h1 {
+    font-family: gt-sectra;
+    font-weight: 200;
+    padding-top : 160px;
+    padding-left: 320px;
+}
+
+.section2-image3 h2 {
+    font-size: 18px;
+    font-family: gt-sectra;
+    font-weight: 100;
+    padding-top : 50px;
+    padding-left: 100px;
+}
+
+.section2-image3 img {
+    padding-left: 100px;
+    
+}
+
+
+.section3 h1 {
+    font-family: gt-sectra;
+    font-weight: 100;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.4;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 90px;
+}
 
 .section4-coloumn1, .section4-coloumn2 {
     float: left;
     width: 50%;
     padding-top: 80px;
-    padding-left: 130px;
+    padding-left: 210px;
     padding-right: 70px;
     height: 1100px;
   }
@@ -188,95 +240,55 @@ nav img {
     clear: both;
 }
 
-.section4-coloumn1 h1, h3 {
+.section4-coloumn1 h1 {
     font-family: gt-sectra;
-    font-size: 18px;
+    font-size: 27px;
     font-weight: 100;
     padding-top: 10px;
     font-weight: bold;
-}
-
-.section4-coloumn1 p1 {
-    font-family: gt-sectra;
-    font-size: 29px;
-    font-weight: 100;
-    padding-right: 50px;
-    line-height: 1;
 }
 
 .section4-coloumn1 h2 {
-    padding-top: 200px;
     font-family: gt-sectra;
-    font-size: 29px;
+    padding-top: 40px;
+    font-size: 18px;
     font-weight: 100;
     padding-right: 50px;
     line-height: 1;
 }
 
-.section4-coloumn2 h1, h3 {
+.section4-coloumn1 h3 {
+    padding-top: 70px;
     font-family: gt-sectra;
     font-size: 18px;
+    font-weight: 100;
+    padding-right: 50px;
+    line-height: 1;
+}
+
+.section4-coloumn2 h1 {
+    font-family: gt-sectra;
+    font-size: 27px;
     font-weight: 100;
     padding-top: 10px;
     font-weight: bold;
 }
 
-.section4-coloumn2 p1 {
-    font-family: gt-sectra;
-    font-size: 29px;
-    font-weight: 100;
-    padding-right: 50px;
-    line-height: 1;
-}
-
-/* section 4 button styling */
-
 .section4-coloumn2 h2 {
-    padding-top: 80px;
     font-family: gt-sectra;
-    font-size: 29px;
+    font-size: 18px;
     font-weight: 100;
+    padding-top: 40px;
     padding-right: 50px;
     line-height: 1;
 }
 
-.section4-button {
+.section4-coloumn2 h3 {
+    font-family: gt-sectra;
+    font-size: 18px;
+    font-weight: 100;
     padding-top: 70px;
+    padding-right: 50px;
+    line-height: 1;
 }
-
-.button {
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    border: 2px solid #555555;
-}
-
-@media only screen and (max-width: 940px) {
-    nav img {
-        width: 100px;
-    } 
-
-    .options{
-        display: none;
-    }
-
-    .text-block h1 {
-        font-size: 30px;
-        padding-left: 30px;
-    }
-
-    .text-block h2 {
-        display: none;
-    }
-    
-}
-
-
-
 
